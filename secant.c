@@ -16,8 +16,7 @@ int main()
 	 scanf("%f", &e);
 	 printf("Enter maximum iteration:\n");
 	 scanf("%d", &N);
-	
-	 
+
 	 printf("\nStep\t\tx0\t\tx1\t\tx2\t\tf(x2)\n");
 	 do
 	 {
@@ -50,4 +49,5 @@ int main()
 	
 	 printf("\nRoot is: %f", x2);
 	 getch();
+	return 0;
 }
