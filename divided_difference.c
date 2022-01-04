@@ -1,8 +1,4 @@
 #include<stdio.h>
-#include<math.h>
-#include<stdlib.h>
-#include<conio.h>
-
 int main()
 {
     double a[20][20],x[20],sum,fy,xi;
@@ -16,7 +12,7 @@ int main()
             printf("y%d = ",i);
             scanf("%lf",&a[i][0]);
         }
-    printf("\nEnter xr where interpolation is required");
+    printf("\nEnter xi where interpolation is required");
     scanf("%lf",&xi);
     for(j = 1; j < n; j++)
         {
