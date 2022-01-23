@@ -22,11 +22,10 @@ Ty=Ty+y[i];
 Tyx=Tyx+y[i]*x[i];
 }
 
-//for y=ax+b
 b=((n*Tyx)-(Tx*Ty))/((n*Tx2)-(Tx*Tx));
-a=(Ty/n)-(b*(Tx/n));
+a=(Ty/n)-b*(Tx/n);
 
-printf("\ny = %fx + %f",a,b);
+printf("\ny = %f + %fx",a,b);
 
 getch();
 }
